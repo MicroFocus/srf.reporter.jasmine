@@ -1,10 +1,11 @@
 
-import {SrfReporterFacade, SrfJsonLogger, RemoteExecutionContext, ReporterStep, ReporterStatuses, StepRole} from "experience.center.reporter.core";
 import {JasmineReporter, JasmineReporterOptions} from "./jasmine-reporter-types";
 import {Suite} from "./suite";
 
-import {jasmine} from "jasmine";
 import _ = require("lodash");
+import {SrfJsonLogger} from "./core/srf-json-logger";
+import {SrfReporterFacade} from "./core/srf-reporter-facade";
+import {RemoteExecutionContext, ReporterStatuses, ReporterStep, StepRole} from "./core/srf-reporter-types";
 
 export class SrfJasmineReporter implements JasmineReporter{
 

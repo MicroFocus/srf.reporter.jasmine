@@ -1,7 +1,5 @@
 
-
-import {jasmine} from "jasmine";
-import {SrfReporterOptions} from "experience.center.reporter.core";
+import {SrfReporterOptions} from "./core/srf-reporter-types";
 
 export interface JasmineReporter {
     jasmineStarted(suiteInfo: jasmine.SuiteInfo) : void;

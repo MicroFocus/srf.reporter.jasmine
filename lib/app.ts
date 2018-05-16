@@ -1,8 +1,9 @@
 import {SrfJasmineReporter} from "./srf-jasmine-reporter";
 import {JasmineReporter, JasmineReporterOptions} from "./jasmine-reporter-types";
-import {SrfReporterFacade, SrfJsonLogger, LogSwitch} from "experience.center.reporter.core";
 
 import _ = require("lodash");
+import {LogSwitch, SrfJsonLogger} from "./core/srf-json-logger";
+import {SrfReporterFacade} from "./core/srf-reporter-facade";
 
 
 class SrfJasmineReporterDelegate implements JasmineReporter {

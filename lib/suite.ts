@@ -1,5 +1,5 @@
 
-import {ReporterStatuses} from "experience.center.reporter.core";
+import {ReporterStatuses} from "./core/srf-reporter-types";
 
 export class Suite {
 

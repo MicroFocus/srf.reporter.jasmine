@@ -4,8 +4,8 @@
     "node": "github:DefinitelyTyped/DefinitelyTyped/node/index.d.ts#a4a912a0cd1849fa7df0e5d909c8625fba04e49d"
   },
   "dependencies": {
-    "experience.center.reporter.core": "file:./node_modules/experience.center.reporter.core/lib/app.d.ts",
     "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/index.d.ts#db75c9ca79883dd7e5c7058ba5ec07207e5197c2",
-    "lodash": "github:types/npm-lodash#6557c3cd628ef6b39abfdc826b27ea1f06d8af89"
+    "lodash": "github:types/npm-lodash#6557c3cd628ef6b39abfdc826b27ea1f06d8af89",
+    "concat-stream": "github:DefinitelyTyped/DefinitelyTyped/concat-stream/index.d.ts#8d3b3fbdc489c764d2e98fa5f633be8cc7ea387a"
   }
 }
