@@ -24,5 +24,20 @@
     "merge2": "1.0.1",
     "tslint": "4.0.2",
     "typescript": "2.3.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicroFocus/srf.reporter.jasmine.git"
+  },
+  "author": "MicroFocus",
+  "bugs": {
+    "url": "https://github.com/MicroFocus/srf.reporter.jasmine/issues"
+  },
+  "homepage": "https://github.com/MicroFocus/srf.reporter.jasmine#readme",
+  "keywords": [
+    "SRF",
+    "StromRunner Functionl",
+    "jasmine",
+    "reporter"
+  ]
 }
